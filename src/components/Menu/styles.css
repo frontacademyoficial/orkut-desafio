@@ -1,0 +1,54 @@
+.menu-padding {
+  height: 92px;
+  background-color: #fdfeff;
+}
+
+.content-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4b4b4b;
+  font-size: 18px;
+}
+
+.menu-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 60px 30px 0;
+}
+
+.pesquisa {
+  width: 355px;
+  height: 43.959px;
+  background-color: #eff3f8;
+  border-radius: 8px;
+  position: relative;
+}
+
+.menu-pesquisa {
+  position: absolute;
+  bottom: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 12px;
+  color: #b4aeae;
+}
+
+input {
+  background: none;
+  border: none;
+  width: 100%;
+  white-space: normal;
+}
+
+.menu-rigth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  padding: 25px 0 27px 58px;
+}

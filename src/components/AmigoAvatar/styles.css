@@ -1,0 +1,13 @@
+.amigo-avatar a {
+  color: #4b4b4b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.amigo-avatar img {
+  width: 60px;
+}
