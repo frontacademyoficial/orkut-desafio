@@ -1,5 +1,6 @@
 import "./styles/global-orkut.css";
 import { Menu } from "../../components/Menu/Menu";
+import { Like } from "../../components/Like/Like";
 import Amigo1 from "./imagens-orkut/img1.png";
 import Amigo2 from "./imagens-orkut/img2.png";
 import Amigo3 from "./imagens-orkut/img3.png";
@@ -53,11 +54,7 @@ function Home() {
               </p>
               <p className="legal">
                 Legal
-                <a>
-                  <img src="imagens-orkut/legal.png" />
-                  <img src="imagens-orkut/legal.png" />
-                  <img src="imagens-orkut/legal.png" />
-                </a>
+                <Like />
               </p>
               <p className="sexy">
                 Sexy
