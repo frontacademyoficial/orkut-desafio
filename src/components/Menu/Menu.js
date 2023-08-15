@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { Logo } from "../Logo/Logo";
 import "./styles.css";
 
@@ -12,9 +14,9 @@ export function Menu() {
             </a>
 
             <a href="#"> Inicio </a>
-            <a href="#" className="fonte-perfil">
+            <Link to="/perfil" className="fonte-perfil">
               Perfil{" "}
-            </a>
+            </Link>
             <a href="/teste"> Comunidades </a>
             <a> Jogos </a>
           </div>
